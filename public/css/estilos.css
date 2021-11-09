@@ -1,0 +1,85 @@
+.container {
+  border: solid thin black;
+  margin: auto;
+  max-width: 1365px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.proceso {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+.dashboard {
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  background-color: rgb(138, 138, 138);
+}
+
+.movimiento-cinta {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hangar-stop {
+  display: flex;
+  align-items: end;
+  width: 30%;
+}
+
+.cinta {
+  width: 100%;
+  height: auto;
+}
+
+.caja {
+  height: 80px;
+  width: 80px;
+  transition: transform 3s;
+}
+
+.hangar {
+  height: 350px;
+}
+
+.inter {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cinta-on {
+  transform: translateX(530px);
+}
+
+img.interruptor.off {
+  object-fit: contain;
+  width: 100%;
+  height: 50px;
+}
+
+img.bombillo {
+  height: 80px;
+}
+
+img.interruptor.off {
+  object-fit: contain;
+  width: auto;
+}
+
+.inter {
+  align-items: center;
+  display: flex;
+  margin: 0 2rem;
+}
+
+.second-inter {
+  margin-left: 3rem;
+}
